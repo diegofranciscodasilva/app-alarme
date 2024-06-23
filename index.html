@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>App Alarme</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="current__time">00:00:00</div>
+        <div class="container">
+            <div class="inputs">
+                <input type="number" id="hour__input" placeholder="00" min="0" max="23">
+                <input type="number" id="minute__input" placeholder="00" min="0" max="59">
+            </div>
+            <div class="buttons">
+                <button id="set">Add Alarme</button>
+                <button id="set" class="clear">Limpar Alarme</button>
+            </div>
+            <div class="alarms__list"></div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
